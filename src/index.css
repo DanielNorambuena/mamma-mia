@@ -1,13 +1,109 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.let p {
+  text-transform: lowercase;
+}
+
+.let p:first-letter {
+  text-transform: uppercase;
+}
+
+.barra-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2a94c2;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.viewActive {
+  color: rgb(255, 220, 106);
+  padding: 0px 25px 0px 25px;
+  font-size: 17px;
+}
+
+.view {
+  padding: 0px 25px 0px 25px;
+  color: white;
+  font-size: 17px;
+}
+
+.cantidades-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.pedido-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cantidades-container h5 {
+  text-transform: lowercase;
+}
+
+.cantidades-container h5:first-letter {
+  text-transform: uppercase;
+}
+
+header {
+  background-image: url("https://cdn.shopify.com/s/files/1/0508/4630/2387/collections/pizzeria-xiroi.jpg?v=1651811985");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 100px;
+}
+
+header h1 {
+  font-size: 70px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  padding: 10px;
+  background-color: #59bee9ef;
 }
